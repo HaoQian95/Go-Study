@@ -46,6 +46,7 @@ func bsort(array sortArray){
 	}
 }
 
+// TestInterface 测试函数
 func TestInterface(){
 	array := intArray{5,7,2,1,8,10,4}
 	bsort(array)
