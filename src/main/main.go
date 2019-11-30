@@ -7,5 +7,5 @@ import (
 )
 
 func main(){
-	test.RangeTest()
+	test.String2Rune()
 }
