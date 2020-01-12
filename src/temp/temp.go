@@ -19,3 +19,9 @@ func RangeTest() {
 		fmt.Println(num)
 	}
 }
+
+func SliceAppendNil() {
+	s := make([]*int, 0)
+	s = append(s, nil)
+	fmt.Println(len(s))
+}

@@ -3,9 +3,10 @@ package main
 import (
 	//"fmt"
 	//"myfunc"
-	"test"
+	//"test"
+	"temp"
 )
 
 func main(){
-	test.String2Rune()
+	temp.SliceAppendNil()
 }
